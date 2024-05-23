@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		99AD47B32BF6F46700E9318E /* findPals Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 99AD47B22BF6F46700E9318E /* findPals Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		99AD47B82BF6F46700E9318E /* findPalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AD47B72BF6F46700E9318E /* findPalsApp.swift */; };
-		99AD47BA2BF6F46700E9318E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AD47B92BF6F46700E9318E /* ContentView.swift */; };
+		99AD47BA2BF6F46700E9318E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AD47B92BF6F46700E9318E /* RootView.swift */; };
 		99AD47BC2BF6F46900E9318E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99AD47BB2BF6F46900E9318E /* Assets.xcassets */; };
 		99AD47BF2BF6F46900E9318E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99AD47BE2BF6F46900E9318E /* Preview Assets.xcassets */; };
+		99F77E6B2BFEDD4B001313EC /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E6A2BFEDD4B001313EC /* FindView.swift */; };
+		99F77E6D2BFEE4B9001313EC /* FindButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E6C2BFEE4B9001313EC /* FindButton.swift */; };
+		99F77E6F2BFEEB79001313EC /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E6E2BFEEB79001313EC /* ButtonStyle.swift */; };
+		99F77E712BFEEBBA001313EC /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E702BFEEBBA001313EC /* SelectionButton.swift */; };
+		99F77E762BFEF021001313EC /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E752BFEF021001313EC /* SmallButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +47,14 @@
 		99AD47AC2BF6F46700E9318E /* findPals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = findPals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AD47B22BF6F46700E9318E /* findPals Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "findPals Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AD47B72BF6F46700E9318E /* findPalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPalsApp.swift; sourceTree = "<group>"; };
-		99AD47B92BF6F46700E9318E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99AD47B92BF6F46700E9318E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		99AD47BB2BF6F46900E9318E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99AD47BE2BF6F46900E9318E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99F77E6A2BFEDD4B001313EC /* FindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
+		99F77E6C2BFEE4B9001313EC /* FindButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindButton.swift; sourceTree = "<group>"; };
+		99F77E6E2BFEEB79001313EC /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		99F77E702BFEEBBA001313EC /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
+		99F77E752BFEF021001313EC /* SmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +88,8 @@
 		99AD47B62BF6F46700E9318E /* findPals Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				99F77E662BFEDC84001313EC /* Views */,
 				99AD47B72BF6F46700E9318E /* findPalsApp.swift */,
-				99AD47B92BF6F46700E9318E /* ContentView.swift */,
 				99AD47BB2BF6F46900E9318E /* Assets.xcassets */,
 				99AD47BD2BF6F46900E9318E /* Preview Content */,
 			);
@@ -92,6 +102,35 @@
 				99AD47BE2BF6F46900E9318E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99F77E662BFEDC84001313EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99AD47B92BF6F46700E9318E /* RootView.swift */,
+				99F77E6A2BFEDD4B001313EC /* FindView.swift */,
+				99F77E742BFEEC68001313EC /* Styles */,
+				99F77E672BFEDCA4001313EC /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99F77E672BFEDCA4001313EC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				99F77E752BFEF021001313EC /* SmallButton.swift */,
+				99F77E6C2BFEE4B9001313EC /* FindButton.swift */,
+				99F77E702BFEEBBA001313EC /* SelectionButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		99F77E742BFEEC68001313EC /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				99F77E6E2BFEEB79001313EC /* ButtonStyle.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99AD47BA2BF6F46700E9318E /* ContentView.swift in Sources */,
+				99AD47BA2BF6F46700E9318E /* RootView.swift in Sources */,
 				99AD47B82BF6F46700E9318E /* findPalsApp.swift in Sources */,
+				99F77E712BFEEBBA001313EC /* SelectionButton.swift in Sources */,
+				99F77E6B2BFEDD4B001313EC /* FindView.swift in Sources */,
+				99F77E6F2BFEEB79001313EC /* ButtonStyle.swift in Sources */,
+				99F77E6D2BFEE4B9001313EC /* FindButton.swift in Sources */,
+				99F77E762BFEF021001313EC /* SmallButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
