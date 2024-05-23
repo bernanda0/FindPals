@@ -17,6 +17,9 @@
 		99F77E6F2BFEEB79001313EC /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E6E2BFEEB79001313EC /* ButtonStyle.swift */; };
 		99F77E712BFEEBBA001313EC /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E702BFEEBBA001313EC /* SelectionButton.swift */; };
 		99F77E762BFEF021001313EC /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E752BFEF021001313EC /* SmallButton.swift */; };
+		99F77E782BFF009A001313EC /* InterestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E772BFF009A001313EC /* InterestView.swift */; };
+		99F77E7B2BFF076C001313EC /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E7A2BFF076C001313EC /* Interest.swift */; };
+		99F77E7E2BFF0B26001313EC /* BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E7D2BFF0B26001313EC /* BaseExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		99F77E6E2BFEEB79001313EC /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		99F77E702BFEEBBA001313EC /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
 		99F77E752BFEF021001313EC /* SmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
+		99F77E772BFF009A001313EC /* InterestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestView.swift; sourceTree = "<group>"; };
+		99F77E7A2BFF076C001313EC /* Interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		99F77E7D2BFF0B26001313EC /* BaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 		99AD47B62BF6F46700E9318E /* findPals Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				99F77E7C2BFF0B17001313EC /* Extensions */,
+				99F77E792BFF0751001313EC /* Models */,
 				99F77E662BFEDC84001313EC /* Views */,
 				99AD47B72BF6F46700E9318E /* findPalsApp.swift */,
 				99AD47BB2BF6F46900E9318E /* Assets.xcassets */,
@@ -109,6 +117,7 @@
 			children = (
 				99AD47B92BF6F46700E9318E /* RootView.swift */,
 				99F77E6A2BFEDD4B001313EC /* FindView.swift */,
+				99F77E772BFF009A001313EC /* InterestView.swift */,
 				99F77E742BFEEC68001313EC /* Styles */,
 				99F77E672BFEDCA4001313EC /* Components */,
 			);
@@ -131,6 +140,22 @@
 				99F77E6E2BFEEB79001313EC /* ButtonStyle.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		99F77E792BFF0751001313EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99F77E7A2BFF076C001313EC /* Interest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99F77E7C2BFF0B17001313EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99F77E7D2BFF0B26001313EC /* BaseExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +259,12 @@
 				99AD47BA2BF6F46700E9318E /* RootView.swift in Sources */,
 				99AD47B82BF6F46700E9318E /* findPalsApp.swift in Sources */,
 				99F77E712BFEEBBA001313EC /* SelectionButton.swift in Sources */,
+				99F77E7B2BFF076C001313EC /* Interest.swift in Sources */,
 				99F77E6B2BFEDD4B001313EC /* FindView.swift in Sources */,
 				99F77E6F2BFEEB79001313EC /* ButtonStyle.swift in Sources */,
+				99F77E7E2BFF0B26001313EC /* BaseExtension.swift in Sources */,
 				99F77E6D2BFEE4B9001313EC /* FindButton.swift in Sources */,
+				99F77E782BFF009A001313EC /* InterestView.swift in Sources */,
 				99F77E762BFEF021001313EC /* SmallButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
