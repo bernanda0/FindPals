@@ -29,6 +29,12 @@
 		99F77E8D2BFF6A3D001313EC /* EmojiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E8C2BFF6A3D001313EC /* EmojiButton.swift */; };
 		99F77E8F2BFF7D46001313EC /* AnimalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E8E2BFF7D46001313EC /* AnimalPickerView.swift */; };
 		99F77E912BFFAE67001313EC /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E902BFFAE67001313EC /* RadioButton.swift */; };
+		99F77E932C00630F001313EC /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E922C00630F001313EC /* InfoView.swift */; };
+		99F77E952C0065C2001313EC /* FindingNearbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E942C0065C2001313EC /* FindingNearbyView.swift */; };
+		99F77E972C0066AB001313EC /* CircularLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E962C0066AB001313EC /* CircularLoading.swift */; };
+		99F77E992C006945001313EC /* MatchFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E982C006945001313EC /* MatchFoundView.swift */; };
+		99F77E9B2C0069AA001313EC /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E9A2C0069AA001313EC /* Avatar.swift */; };
+		99F77E9E2C006F86001313EC /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 99F77E9D2C006F86001313EC /* ConfettiSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +85,11 @@
 		99F77E8C2BFF6A3D001313EC /* EmojiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiButton.swift; sourceTree = "<group>"; };
 		99F77E8E2BFF7D46001313EC /* AnimalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalPickerView.swift; sourceTree = "<group>"; };
 		99F77E902BFFAE67001313EC /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		99F77E922C00630F001313EC /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		99F77E942C0065C2001313EC /* FindingNearbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingNearbyView.swift; sourceTree = "<group>"; };
+		99F77E962C0066AB001313EC /* CircularLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoading.swift; sourceTree = "<group>"; };
+		99F77E982C006945001313EC /* MatchFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchFoundView.swift; sourceTree = "<group>"; };
+		99F77E9A2C0069AA001313EC /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F77E9E2C006F86001313EC /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +127,6 @@
 				99F77E7C2BFF0B17001313EC /* Extensions */,
 				99F77E792BFF0751001313EC /* Models */,
 				99F77E662BFEDC84001313EC /* Views */,
-				99F77E832BFF4C49001313EC /* ViewModels */,
 				99AD47B72BF6F46700E9318E /* findPalsApp.swift */,
 				99AD47BB2BF6F46900E9318E /* Assets.xcassets */,
 				99AD47BD2BF6F46900E9318E /* Preview Content */,
@@ -138,7 +149,11 @@
 				99F77E6A2BFEDD4B001313EC /* FindView.swift */,
 				99F77E772BFF009A001313EC /* InterestView.swift */,
 				99F77E7F2BFF2347001313EC /* ProfileView.swift */,
+				99F77E942C0065C2001313EC /* FindingNearbyView.swift */,
 				99F77E8E2BFF7D46001313EC /* AnimalPickerView.swift */,
+				99F77E922C00630F001313EC /* InfoView.swift */,
+				99F77E982C006945001313EC /* MatchFoundView.swift */,
+				99F77E832BFF4C49001313EC /* ViewModels */,
 				99F77E742BFEEC68001313EC /* Styles */,
 				99F77E672BFEDCA4001313EC /* Components */,
 			);
@@ -155,6 +170,8 @@
 				99F77E8A2BFF6A21001313EC /* HexagonalGrid.swift */,
 				99F77E8C2BFF6A3D001313EC /* EmojiButton.swift */,
 				99F77E902BFFAE67001313EC /* RadioButton.swift */,
+				99F77E962C0066AB001313EC /* CircularLoading.swift */,
+				99F77E9A2C0069AA001313EC /* Avatar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -226,6 +243,9 @@
 			dependencies = (
 			);
 			name = "findPals Watch App";
+			packageProductDependencies = (
+				99F77E9D2C006F86001313EC /* ConfettiSwiftUI */,
+			);
 			productName = "findPals Watch App";
 			productReference = 99AD47B22BF6F46700E9318E /* findPals Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 99AD47A52BF6F46700E9318E;
+			packageReferences = (
+				99F77E9C2C006F86001313EC /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			productRefGroup = 99AD47AD2BF6F46700E9318E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -296,14 +319,19 @@
 				99F77E8F2BFF7D46001313EC /* AnimalPickerView.swift in Sources */,
 				99AD47B82BF6F46700E9318E /* findPalsApp.swift in Sources */,
 				99F77E712BFEEBBA001313EC /* SelectionButton.swift in Sources */,
+				99F77E952C0065C2001313EC /* FindingNearbyView.swift in Sources */,
+				99F77E9B2C0069AA001313EC /* Avatar.swift in Sources */,
 				99F77E912BFFAE67001313EC /* RadioButton.swift in Sources */,
 				99F77E7B2BFF076C001313EC /* Interest.swift in Sources */,
 				99F77E6B2BFEDD4B001313EC /* FindView.swift in Sources */,
+				99F77E932C00630F001313EC /* InfoView.swift in Sources */,
 				99F77E6F2BFEEB79001313EC /* ButtonStyle.swift in Sources */,
 				99F77E7E2BFF0B26001313EC /* DataTypeExtension.swift in Sources */,
 				99F77E6D2BFEE4B9001313EC /* FindButton.swift in Sources */,
 				99F77E782BFF009A001313EC /* InterestView.swift in Sources */,
+				99F77E992C006945001313EC /* MatchFoundView.swift in Sources */,
 				99F77E852BFF4C95001313EC /* ProfileViewModel.swift in Sources */,
+				99F77E972C0066AB001313EC /* CircularLoading.swift in Sources */,
 				99F77E8B2BFF6A21001313EC /* HexagonalGrid.swift in Sources */,
 				99F77E872BFF4EE2001313EC /* TextInputStyle.swift in Sources */,
 				99F77E8D2BFF6A3D001313EC /* EmojiButton.swift in Sources */,
@@ -563,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99F77E9C2C006F86001313EC /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99F77E9D2C006F86001313EC /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99F77E9C2C006F86001313EC /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 99AD47A62BF6F46700E9318E /* Project object */;
 }
