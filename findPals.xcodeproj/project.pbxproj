@@ -19,7 +19,16 @@
 		99F77E762BFEF021001313EC /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E752BFEF021001313EC /* SmallButton.swift */; };
 		99F77E782BFF009A001313EC /* InterestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E772BFF009A001313EC /* InterestView.swift */; };
 		99F77E7B2BFF076C001313EC /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E7A2BFF076C001313EC /* Interest.swift */; };
-		99F77E7E2BFF0B26001313EC /* BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E7D2BFF0B26001313EC /* BaseExtension.swift */; };
+		99F77E7E2BFF0B26001313EC /* DataTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E7D2BFF0B26001313EC /* DataTypeExtension.swift */; };
+		99F77E802BFF2347001313EC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E7F2BFF2347001313EC /* ProfileView.swift */; };
+		99F77E822BFF2381001313EC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E812BFF2381001313EC /* Profile.swift */; };
+		99F77E852BFF4C95001313EC /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E842BFF4C95001313EC /* ProfileViewModel.swift */; };
+		99F77E872BFF4EE2001313EC /* TextInputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E862BFF4EE2001313EC /* TextInputStyle.swift */; };
+		99F77E892BFF5337001313EC /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E882BFF5337001313EC /* CustomText.swift */; };
+		99F77E8B2BFF6A21001313EC /* HexagonalGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E8A2BFF6A21001313EC /* HexagonalGrid.swift */; };
+		99F77E8D2BFF6A3D001313EC /* EmojiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E8C2BFF6A3D001313EC /* EmojiButton.swift */; };
+		99F77E8F2BFF7D46001313EC /* AnimalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E8E2BFF7D46001313EC /* AnimalPickerView.swift */; };
+		99F77E912BFFAE67001313EC /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F77E902BFFAE67001313EC /* RadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +69,16 @@
 		99F77E752BFEF021001313EC /* SmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
 		99F77E772BFF009A001313EC /* InterestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestView.swift; sourceTree = "<group>"; };
 		99F77E7A2BFF076C001313EC /* Interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
-		99F77E7D2BFF0B26001313EC /* BaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseExtension.swift; sourceTree = "<group>"; };
+		99F77E7D2BFF0B26001313EC /* DataTypeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypeExtension.swift; sourceTree = "<group>"; };
+		99F77E7F2BFF2347001313EC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		99F77E812BFF2381001313EC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		99F77E842BFF4C95001313EC /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		99F77E862BFF4EE2001313EC /* TextInputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputStyle.swift; sourceTree = "<group>"; };
+		99F77E882BFF5337001313EC /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		99F77E8A2BFF6A21001313EC /* HexagonalGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonalGrid.swift; sourceTree = "<group>"; };
+		99F77E8C2BFF6A3D001313EC /* EmojiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiButton.swift; sourceTree = "<group>"; };
+		99F77E8E2BFF7D46001313EC /* AnimalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalPickerView.swift; sourceTree = "<group>"; };
+		99F77E902BFFAE67001313EC /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,7 @@
 				99F77E7C2BFF0B17001313EC /* Extensions */,
 				99F77E792BFF0751001313EC /* Models */,
 				99F77E662BFEDC84001313EC /* Views */,
+				99F77E832BFF4C49001313EC /* ViewModels */,
 				99AD47B72BF6F46700E9318E /* findPalsApp.swift */,
 				99AD47BB2BF6F46900E9318E /* Assets.xcassets */,
 				99AD47BD2BF6F46900E9318E /* Preview Content */,
@@ -118,6 +137,8 @@
 				99AD47B92BF6F46700E9318E /* RootView.swift */,
 				99F77E6A2BFEDD4B001313EC /* FindView.swift */,
 				99F77E772BFF009A001313EC /* InterestView.swift */,
+				99F77E7F2BFF2347001313EC /* ProfileView.swift */,
+				99F77E8E2BFF7D46001313EC /* AnimalPickerView.swift */,
 				99F77E742BFEEC68001313EC /* Styles */,
 				99F77E672BFEDCA4001313EC /* Components */,
 			);
@@ -130,6 +151,10 @@
 				99F77E752BFEF021001313EC /* SmallButton.swift */,
 				99F77E6C2BFEE4B9001313EC /* FindButton.swift */,
 				99F77E702BFEEBBA001313EC /* SelectionButton.swift */,
+				99F77E882BFF5337001313EC /* CustomText.swift */,
+				99F77E8A2BFF6A21001313EC /* HexagonalGrid.swift */,
+				99F77E8C2BFF6A3D001313EC /* EmojiButton.swift */,
+				99F77E902BFFAE67001313EC /* RadioButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -138,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				99F77E6E2BFEEB79001313EC /* ButtonStyle.swift */,
+				99F77E862BFF4EE2001313EC /* TextInputStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -146,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				99F77E7A2BFF076C001313EC /* Interest.swift */,
+				99F77E812BFF2381001313EC /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,9 +180,17 @@
 		99F77E7C2BFF0B17001313EC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				99F77E7D2BFF0B26001313EC /* BaseExtension.swift */,
+				99F77E7D2BFF0B26001313EC /* DataTypeExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		99F77E832BFF4C49001313EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				99F77E842BFF4C95001313EC /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,15 +292,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				99AD47BA2BF6F46700E9318E /* RootView.swift in Sources */,
+				99F77E822BFF2381001313EC /* Profile.swift in Sources */,
+				99F77E8F2BFF7D46001313EC /* AnimalPickerView.swift in Sources */,
 				99AD47B82BF6F46700E9318E /* findPalsApp.swift in Sources */,
 				99F77E712BFEEBBA001313EC /* SelectionButton.swift in Sources */,
+				99F77E912BFFAE67001313EC /* RadioButton.swift in Sources */,
 				99F77E7B2BFF076C001313EC /* Interest.swift in Sources */,
 				99F77E6B2BFEDD4B001313EC /* FindView.swift in Sources */,
 				99F77E6F2BFEEB79001313EC /* ButtonStyle.swift in Sources */,
-				99F77E7E2BFF0B26001313EC /* BaseExtension.swift in Sources */,
+				99F77E7E2BFF0B26001313EC /* DataTypeExtension.swift in Sources */,
 				99F77E6D2BFEE4B9001313EC /* FindButton.swift in Sources */,
 				99F77E782BFF009A001313EC /* InterestView.swift in Sources */,
+				99F77E852BFF4C95001313EC /* ProfileViewModel.swift in Sources */,
+				99F77E8B2BFF6A21001313EC /* HexagonalGrid.swift in Sources */,
+				99F77E872BFF4EE2001313EC /* TextInputStyle.swift in Sources */,
+				99F77E8D2BFF6A3D001313EC /* EmojiButton.swift in Sources */,
+				99F77E802BFF2347001313EC /* ProfileView.swift in Sources */,
 				99F77E762BFEF021001313EC /* SmallButton.swift in Sources */,
+				99F77E892BFF5337001313EC /* CustomText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
